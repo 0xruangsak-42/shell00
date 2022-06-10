@@ -7,8 +7,8 @@ mkdir ex01
 echo $(for each in $(seq 2 40); do printf "a"; done) > ./ex01/testShell00
 touch -a -m -t 202406012342.00 ./ex01/testShell00
 chmod u=r,go=rx ./ex01/testShell00
-tar -cf ./ex01/testShell00.tar ./ex01/testShell00
-rm ./ex01 testShell00
+#tar -cf ./ex01/testShell00.tar ./ex01/testShell00
+#rm ./ex01 testShell00
 
 #ex02
 mkdir ex02
@@ -47,13 +47,13 @@ chmod 404 ./ex02/test5
 chmod -h 777 ./ex02/test6
 
 #zip
-tar -cf ./ex02/exo2.tar ./ex02/*
+#tar -cf ./ex02/exo2.tar ./ex02/*
 
 #clean
-for i in {0..6}
-do
-    rm -r ./ex02/test$i
-done
+# for i in {0..6}
+# do
+#     rm -r ./ex02/test$i
+# done
 
 #ex03
 #mkdir ex03
