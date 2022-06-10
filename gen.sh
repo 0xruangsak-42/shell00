@@ -8,6 +8,7 @@ echo $(for each in $(seq 2 40); do printf "a"; done) > ./ex01/testShell00
 touch -a -m -t 202406012342.00 ./ex01/testShell00
 chmod 455 ./ex01/testShell00
 tar -cf ./ex01/testShell00.tar ./ex01/*
+rm -r ./ex01 testShell00
 
 #ex02
 mkdir ex02
@@ -47,6 +48,12 @@ chmod -h 777 ./ex02/test6
 
 #zip
 tar -cf ./ex02/exo2.tar ./ex02/*
+
+#clean
+for i in {0..6}
+do
+    rm -r test$i
+done
 
 #ex03
 #mkdir ex03
