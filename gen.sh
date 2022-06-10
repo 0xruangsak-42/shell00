@@ -6,7 +6,7 @@
 mkdir ex01
 echo $(for each in $(seq 2 40); do printf "a"; done) > ./ex01/testShell00
 touch -a -m -t 202406012342.00 ./ex01/testShell00
-chmod 455 ./ex01/testShell00
+chmod u=r g=rx o=rx ./ex01/testShell00
 tar -cf ./ex01/testShell00.tar ./ex01/*
 #rm -r ./ex01 testShell00
 
@@ -61,7 +61,7 @@ done
 
 #ex04
 mkdir ex04
-echo "ls -trhpm" > ./ex04/midLS
+echo "ls -tpm" > ./ex04/midLS
 
 #ex05
 #mkdir ex05
@@ -69,7 +69,7 @@ echo "ls -trhpm" > ./ex04/midLS
 
 #ex06
 mkdir ex06
-echo "git check-ignore *" > ./ex06/git_ignore.sh
+echo "git ls-files -i --exclude-standard -o" > ./ex06/git_ignore.sh
 
 #ex07
 # mkdir ex07
@@ -87,7 +87,7 @@ echo "git check-ignore *" > ./ex06/git_ignore.sh
 
 #ex08
 mkdir ex08
-echo 'find . -name "*~" -print -delete -o -name "#*#" -print -delete' > ./ex08/clean
+echo 'find . -type f -name "*~" -print -delete -o -type f -name "#*#" -print -delete' > ./ex08/clean
 
 #ex09
 #mkdir ex09
