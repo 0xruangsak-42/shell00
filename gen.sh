@@ -52,7 +52,7 @@ tar -cf ./ex02/exo2.tar ./ex02/*
 #clean
 for i in {0..6}
 do
-    rm -r test$i
+    rm -r ./ex02/test$i
 done
 
 #ex03
