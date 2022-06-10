@@ -57,26 +57,26 @@ mkdir ex04
 echo "ls -trhpm" > ./ex04/midLS
 
 #ex05
-mkdir ex05
-echo "git log -n 5 --format='%H'" > ./ex05/git_commit.sh
+#mkdir ex05
+#echo "git log -n 5 --format='%H'" > ./ex05/git_commit.sh
 
 #ex06
 mkdir ex06
 echo "git check-ignore *" > ./ex06/git_ignore.sh
 
 #ex07
-mkdir ex07
-echo "Episode V, A NEW H0PE It is a period of civil war
-Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. 
-During the battle, Rebel spies managed to steal secret plans to the Empire's ultimate weapon, the STAR DEATH, an armored space station with enough power to destroy an entire planet.
+# mkdir ex07
+# echo "Episode V, A NEW H0PE It is a period of civil war
+# Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. 
+# During the battle, Rebel spies managed to steal secret plans to the Empire's ultimate weapon, the STAR DEATH, an armored space station with enough power to destroy an entire planet.
 
 
-Pursued by the Empire's sinister agents,
-Princess Mehdi races home aboard her starship, custodian of the stolen plans that can save her people and restore the dictatorship to the galaxie..
+# Pursued by the Empire's sinister agents,
+# Princess Mehdi races home aboard her starship, custodian of the stolen plans that can save her people and restore the dictatorship to the galaxie..
 
 
 
-" > ./ex07/b
+# " > ./ex07/b
 
 #ex08
 mkdir ex08
