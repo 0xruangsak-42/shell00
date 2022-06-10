@@ -43,7 +43,7 @@ dr-x---r-- 2 XX XX XX Jun 1 22:45 test2
 -r-----r-- 2 XX XX 1 Jun 1 23:44 test5
 lrwxrwxrwx 1 XX XX 5 Jun 1 22:20 test6 -> test0"
 echo "**************************************************"
-tar -pxf ./ex02/exo2.tar -c ./ex02
+tar -pxf ./ex02/exo2.tar -C ./ex02
 ls -l ./ex02
 
 test ex03
