@@ -16,13 +16,13 @@ ln test3 test5
 ln -s test0 test6
 
 #change the date
-touch -t 202406012047.00 test0
-touch -t 202406012146.00 test1
-touch -t 202406012245.00 test2
-touch -t 202406012344.00 test3
-touch -t 202406012343.00 test4
-touch -t 202406012344.00 test5
-touch -ht 202406012220.00 test6
+touch -a -m -t 202406012047.00 test0
+touch -a -m -t 202406012146.00 test1
+touch -a -m -t 202406012245.00 test2
+touch -a -m -t 202406012344.00 test3
+touch -a -m -t 202406012343.00 test4
+touch -a -m -t 202406012344.00 test5
+touch -a -m -ht 202406012220.00 test6
 
 #change permission
 chmod 715 test0
