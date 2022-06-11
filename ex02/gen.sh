@@ -9,6 +9,7 @@ touch test4
 echo "***" > test1
 echo "" > test3
 echo "*" > test4
+echo "" > test5
 
 #link file
 ln ./ex02/test3 test5
