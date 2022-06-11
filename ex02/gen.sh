@@ -12,8 +12,8 @@ echo "*" > test4
 echo "" > test5
 
 #link file
-ln ./ex02/test3 test5
-ln -s ./ex02/test0 test6
+ln test3 test5
+ln -s test0 test6
 
 #change the date
 touch -t 202406012047.00 test0
