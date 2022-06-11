@@ -42,4 +42,4 @@ rmdir test2
 rm test3
 rm test4
 rm test5
-rmdir test6
+rm test6
