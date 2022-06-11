@@ -9,10 +9,10 @@ touch test4
 echo "***" > test1
 echo "" > test3
 echo "*" > test4
-echo "" > test5
 
 #link file
 ln test3 test5
+echo "" > test5
 ln -s test0 test6
 
 #change the date
@@ -30,7 +30,6 @@ chmod 714 test1
 chmod 504 test2
 chmod 404 test3
 chmod 641 test4
-chmod 404 test5
 chmod -h 777 test6
 
 #zip
