@@ -34,3 +34,12 @@ chmod -h 777 test6
 
 #zip
 tar -cf exo2.tar * 
+
+#delete
+rmdir test0
+rm test1
+rmdir test2
+rm test3
+rm test4
+rm test5
+rmdir test6
